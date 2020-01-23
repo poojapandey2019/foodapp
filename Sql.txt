@@ -1,0 +1,6 @@
+Create Table Customer( customerId int AUTO_INCREMENT Primary key,
+				   EmailId varchar(100), 
+                   FirstName varchar(100) NOT NULL, 
+				   LastName varchar(100) NOT NULL,
+				   PhoneNumber varchar(20),
+				   Password varchar(100));
